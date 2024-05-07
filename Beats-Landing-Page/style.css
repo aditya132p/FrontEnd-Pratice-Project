@@ -16,3 +16,9 @@ html , body{
 .head-phone{
     padding-left: 60px;
 }
+.navbar{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    color: white;
+}
