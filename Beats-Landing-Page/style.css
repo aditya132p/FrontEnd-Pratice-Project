@@ -14,6 +14,8 @@ html , body{
     padding: 10px 0px 0px 100px;
 }
 .hero{
+  display: flex;
+ 
     padding-left: 100px;
 }
 .navbar{
@@ -74,12 +76,36 @@ html , body{
   background-color: rgb(163, 205, 28); 
  }
 
- .hero > #onEar{
-  display: flex;
-  justify-content: right;
-
+ #onEar{
+  width: 270px;
+  height: 100px;
+  
  }
 
+.text-card > button {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;  
+  width: 200px;
+ height: 40px;
+  color: rgb(187, 176, 176);
+  background-color: rgb(52, 44, 44);
+  border: 0;
+  border-radius: 3px;
+}
+
+ 
+
+ .social-logo{
+  display: flex;
+  justify-content: center;
+   
+}
+
+.social-logo > img{
+  padding-top: 300px;
+  padding-right: 100px;
+}
  
 
 
