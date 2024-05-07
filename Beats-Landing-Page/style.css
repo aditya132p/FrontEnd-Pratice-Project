@@ -13,33 +13,73 @@ html , body{
 .Beats-logo{
     padding: 10px 0px 0px 100px;
 }
-.head-phone{
-    padding-left: 60px;
+.hero{
+    padding-left: 100px;
 }
 .navbar{
     display: inline;
     color: white;
 }
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.navbar ul {
+
+ ul {
     display: flex;
     align-items: center;
+    /* padding-left: 400px; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul > img{
+    padding-right: 600px;
+
   }
   
-  .navbar ul li {
-    margin-left: 100px;
+   ul > li  {
+    margin-left: 50px;
+
   }
-  .navbar ul li a {
+  
+   ul li a {
+    
     text-decoration: none;
-    color: #333; 
+    color: #f0e8e8; 
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 15px; 
   }
   
-  .navbar ul li a:hover {
-    color: rgb(128, 118, 118); 
+   ul>li a:hover {
+    color: rgb(122, 118, 118); 
   }
+
+  #headset{
+    padding-top: 0%;
+  }
+
+  
+ li > button{
+  padding-right: 20px;
+
+}
+ #shop-button{
+  font-weight: bold;
+  font-size: 15px;  
+  padding: 4px 20px 4px 20px;
+  color: rgb(187, 176, 176);
+  background-color: rgb(52, 44, 44);
+  border: 0;
+  border-radius: 3px;
+ }
+ #shop-button:hover{
+  color: black;
+  background-color: rgb(163, 205, 28); 
+ }
+
+ .hero > #onEar{
+  display: flex;
+  justify-content: right;
+
+ }
+
+ 
+
+
