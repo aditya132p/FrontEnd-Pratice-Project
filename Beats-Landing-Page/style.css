@@ -8,4 +8,8 @@ html , body{
     height: 100%;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+.Beats-logo{
+    padding: 10px 0px 0px 10px;
 }
