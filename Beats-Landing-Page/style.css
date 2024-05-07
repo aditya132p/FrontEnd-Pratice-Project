@@ -17,8 +17,29 @@ html , body{
     padding-left: 60px;
 }
 .navbar{
-    display: flex;
-    justify-content: right;
-    list-style: none;
+    display: inline;
     color: white;
 }
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar ul li {
+    margin-right: 100px;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+    font-size: 18px; 
+  }
+  
+  .navbar ul li a:hover {
+    color: rgb(128, 118, 118); 
+  }
