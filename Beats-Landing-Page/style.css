@@ -19,30 +19,22 @@ body {
 }
 
 .Beats-logo {
-  padding: 10px 0px 0px 100px;
+  padding: 10px 0px 0px 10px;
 }
 
 .hero {
   display: flex;
-
-  padding-left: 100px;
-}
-
-.navbar {
-  display: inline;
-  color: white;
+  padding-left: 700px;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.navbar ul {
-  display: flex;
-  align-items: center;
-}
 
 .navbar ul li {
+  display: flex;
+  align-items: center;
   margin-left: 100px;
   padding-left: 100px;
 }
@@ -63,21 +55,16 @@ ul {
   padding: 0;
 }
 
-.navbar ul li a {
-  text-decoration: none;
-  color: #f0e8e8;
-  font-weight: bold;
-  font-size: 15px;
-}
 
 .navbar ul > li a:hover {
+  
   color: rgb(122, 118, 118);
 }
 
-#headset {
+/* #headset {
   height: 509px;
   padding-left: 100px;
-}
+} */
 
 .navbar li > button {
   padding-right: 20px;
