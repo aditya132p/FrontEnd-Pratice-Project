@@ -11,6 +11,12 @@ body {
   width: 100%;
   font-family: "Poppins", sans-serif;
   background-color: rgb(15, 15, 16, 1);
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
 }
 
 .Beats-logo {
@@ -39,6 +45,53 @@ ul {
 
 .navbar ul li {
   margin-left: 100px;
+  padding-left: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+ .navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Beats-logo{
+   
+  }
+  
+   .navbar ul > li  {
+    /* margin-left: 50px; */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #f0e8e8; 
+    font-weight: bold;
+    font-size: 15px; 
+  }
+  
+  .navbar ul>li a:hover {
+    color: rgb(122, 118, 118); 
+  }
+
+  #headset{
+    height: 509px;
+    padding-left: 100px;
+  }
+
+  
+ .navbar li > button{
+  padding-right: 20px;
+
 }
 .navbar ul li a {
   text-decoration: none;
@@ -175,6 +228,8 @@ li > button {
   font-weight: bold;
   font-size: 15px;
   padding: 4px 20px 4px 20px;
+  font-size: 15px;  
+  padding: 0.5rem 1.5rem;
   color: rgb(187, 176, 176);
   background-color: rgb(52, 44, 44);
   border: 0;
@@ -233,3 +288,67 @@ li > button {
 #bag-button {
   margin: 40px 0px 0px 150px;
 }
+
+.title-logo {
+  margin: 70px 0;
+}
+
+.title-logo img {
+  position: relative;
+  left: 45%;
+}
+
+.product-features {
+  position: relative;
+  bottom: 35px;
+}
+
+.product-descrip{
+  padding: 25px;
+  color: white;
+}
+
+.beat-specs-specification {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div#connect-dis {
+  position: relative;
+  left: 30px;
+}
+
+div#mic-dis{
+  position: relative;
+  left: 30px;
+}
+
+#connection, #battery, #charge, #micro{
+  font-weight: 800;
+}
+
+/* Mobile view point */
+
+@media (max-width: 750px){
+  .specs-section{
+    position: relative;
+  }
+  .beat-specs-specification{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+// tablet 
+@media only screen 
+   and (min-width : 768px) {
+   /* Styles here */
+}
+// smartphone 
+@media only screen 
+   and (min-width : 768px) {
+   /* Styles here */
+}
+
+
+
