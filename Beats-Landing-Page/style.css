@@ -128,3 +128,51 @@ html , body{
   margin: 40px 0px 0px 150px;
 }
 
+.title-logo {
+  margin: 70px 0;
+}
+
+.title-logo img {
+  position: relative;
+  left: 45%;
+}
+
+.product-features {
+  position: relative;
+  bottom: 35px;
+}
+
+.product-descrip{
+  padding: 25px;
+}
+
+
+.beat-specs-specification {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div#connect-dis {
+  position: relative;
+  left: 30px;
+}
+
+div#mic-dis{
+  position: relative;
+  left: 30px;
+}
+
+/* Mobile view point */
+
+@media (max-width: 750px){
+  .specs-section{
+    position: relative;
+  }
+  .beat-specs-specification{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+
