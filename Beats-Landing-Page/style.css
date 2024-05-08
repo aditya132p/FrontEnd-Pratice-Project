@@ -4,20 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html , body{
     height: 100%;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     background-color: black;
 }
+
 .Beats-logo{
     padding: 10px 0px 0px 100px;
 }
+
 .hero{
   display: flex;
  
     padding-left: 100px;
 }
+
 .navbar{
     display: inline;
     color: white;
@@ -31,18 +35,16 @@ html , body{
     margin: 0;
     padding: 0;
   }
+
   ul > img{
     padding-right: 600px;
-
   }
   
    ul > li  {
     margin-left: 50px;
-
   }
   
    ul li a {
-    
     text-decoration: none;
     color: #f0e8e8; 
     font-weight: bold;
@@ -54,7 +56,8 @@ html , body{
   }
 
   #headset{
-    padding-top: 0%;
+    height: 509px;
+    padding-left: 100px;
   }
 
   
@@ -77,9 +80,7 @@ html , body{
  }
 
  #onEar{
-  width: 270px;
-  height: 100px;
-  
+  padding: 50px 0px 0px 400px;
  }
 
 .text-card > button {
@@ -89,23 +90,41 @@ html , body{
   width: 200px;
  height: 40px;
   color: rgb(187, 176, 176);
-  background-color: rgb(52, 44, 44);
+  background-color: rgb(21, 19, 19);
   border: 0;
   border-radius: 3px;
 }
-
- 
-
- .social-logo{
+.text-card > button:hover{
+  color: black;
+  background-color: rgb(163, 205, 28); 
+}
+  .social-logo{
   display: flex;
-  justify-content: center;
-   
+  justify-content: center;  
 }
-
+.social-logo{
+  padding-right: 400px;
+}
 .social-logo > img{
-  padding-top: 300px;
-  padding-right: 100px;
+  padding-top: 200px;
+  padding-right: 100px; 
 }
- 
-
+.text-card{
+  margin: 10px;
+}
+.text-card >h1{
+  padding-left: 100px;
+}
+.text-card >h5{
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.text-card >p{
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 650px;
+}
+#bag-button{
+  margin: 40px 0px 0px 150px;
+}
 
