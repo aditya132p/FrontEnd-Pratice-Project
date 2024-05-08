@@ -113,6 +113,7 @@ html , body{
 }
 .text-card{
   margin: 10px;
+  color: white;
 }
 .text-card >h1{
   padding-left: 100px;
