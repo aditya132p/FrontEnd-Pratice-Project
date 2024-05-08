@@ -1,115 +1,235 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&family=Poppins&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html , body{
-    height: 100%;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(15,15,16,1);
-}
-.Beats-logo{
-    padding: 10px 0px 0px 100px;
-}
-.head-phone{
-    padding-left: 60px;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
-    display: inline;
-    color: white;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(15, 15, 16, 1);
 }
-ul{
+
+.Beats-logo {
+  padding: 10px 0px 0px 100px;
+}
+
+.hero {
+  display: flex;
+
+  padding-left: 100px;
+}
+
+.navbar {
+  display: inline;
+  color: white;
+}
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 .navbar ul {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar ul li {
-    margin-left: 100px;
-  }
-  .navbar ul li a {
-    text-decoration: none;
-    color: #333; 
-    font-weight: bold;
-    font-size: 18px; 
-  }
-  
-  .navbar ul li a:hover {
-    color: rgb(128, 118, 118); 
-  }
-
-.style-section{
-    margin: 50px;
-    text-align: center;
+  display: flex;
+  align-items: center;
 }
 
-.headphones-list{
-    padding: 80px;
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    row-gap: 120px;
-    margin-top: 30px;
-    margin: 0px 8%;
+.navbar ul li {
+  margin-left: 100px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.headphone-card{
-    background-color: rgb(30 30 33);
-    width: 300px;
-    height: 340px;
+.navbar ul li a:hover {
+  color: rgb(128, 118, 118);
 }
 
-.headphone-card img{
-    width: 200px;
-    position: relative;
-    top: -20px;
-}
-.style-section h2{
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-weight: 600;
-    font-style: normal;
-    color: rgb(102, 100, 100);
+.style-section {
+  margin: 50px;
+  text-align: center;
 }
 
-.card-bottom{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.headphones-list {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 120px;
+  margin-top: 30px;
+  margin: 0px 8%;
 }
 
-.headphone-name{
-    margin: 0px 10px ;
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-    text-align: left;
+.headphone-card {
+  background-color: rgb(30 30 33);
+  width: 300px;
+  height: 340px;
 }
 
-.Addtocart-button{
-    padding: 15px;
+.headphone-card img {
+  width: 200px;
+  position: relative;
+  top: -20px;
+}
+.style-section h2 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(102, 100, 100);
 }
 
-.Addtocart-button button{
-    padding: 4px 24px;
-    background-color: rgb(15,15,16,1);
-    border: none;
-    border-radius: 5px;
-    transition: box-shadow 0.5s ;
-    cursor: pointer;
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.Addtocart-button ion-icon{
-    font-size: 20px;
-    color: white;
+.headphone-name {
+  margin: 0px 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
 }
 
-.Addtocart-button button:hover{
-    box-shadow: 0px 0px 15px grey;
+.Addtocart-button {
+  padding: 15px;
+}
+
+.Addtocart-button button {
+  padding: 4px 24px;
+  background-color: rgb(15, 15, 16, 1);
+  border: none;
+  border-radius: 5px;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+
+.Addtocart-button ion-icon {
+  font-size: 20px;
+  color: white;
+}
+
+.Addtocart-button button:hover {
+  box-shadow: 0px 0px 15px grey;
+}
+
+.Beats-logo {
+  padding: 10px 0px 0px 100px;
+}
+
+.hero {
+  display: flex;
+
+  padding-left: 100px;
+}
+
+.navbar {
+  display: inline;
+  color: white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  /* padding-left: 400px; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > img {
+  padding-right: 600px;
+}
+
+ul > li {
+  margin-left: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #f0e8e8;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+ul > li a:hover {
+  color: rgb(122, 118, 118);
+}
+
+#headset {
+  height: 509px;
+  padding-left: 100px;
+}
+
+li > button {
+  padding-right: 20px;
+}
+#shop-button {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 4px 20px 4px 20px;
+  color: rgb(187, 176, 176);
+  background-color: rgb(52, 44, 44);
+  border: 0;
+  border-radius: 3px;
+}
+#shop-button:hover {
+  color: black;
+  background-color: rgb(163, 205, 28);
+}
+
+#onEar {
+  padding: 50px 0px 0px 400px;
+}
+
+.text-card > button {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 200px;
+  height: 40px;
+  color: rgb(187, 176, 176);
+  background-color: rgb(21, 19, 19);
+  border: 0;
+  border-radius: 3px;
+}
+.text-card > button:hover {
+  color: black;
+  background-color: rgb(163, 205, 28);
+}
+.social-logo {
+  display: flex;
+  justify-content: center;
+}
+.social-logo {
+  padding-right: 400px;
+}
+.social-logo > img {
+  padding-top: 200px;
+  padding-right: 100px;
+}
+.text-card {
+  margin: 10px;
+}
+.text-card > h1 {
+  padding-left: 100px;
+}
+.text-card > h5 {
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.text-card > p {
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 650px;
+}
+#bag-button {
+  margin: 40px 0px 0px 150px;
 }
