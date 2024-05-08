@@ -10,6 +10,7 @@ html , body{
     width: 100%;
     font-family: 'Poppins', sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
 
 .Beats-logo{
@@ -144,8 +145,8 @@ html , body{
 
 .product-descrip{
   padding: 25px;
+  color: white;
 }
-
 
 .beat-specs-specification {
   display: flex;
@@ -160,6 +161,10 @@ div#connect-dis {
 div#mic-dis{
   position: relative;
   left: 30px;
+}
+
+#connection, #battery, #charge, #micro{
+  font-weight: 800;
 }
 
 /* Mobile view point */
