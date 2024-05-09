@@ -14,23 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-.hero {
-  display: flex;
- width: 100%;
- height: 100vh;
- justify-content: center;
- align-items: center;
- 
 
-}
-
-.hero-container{
-  display: flex;
-  width: 80%;
-  height:100%;
-
-  
-}
 ul  li {
   list-style-type: none;
   margin: 0;
@@ -73,7 +57,91 @@ ul  li {
 .navbar ul li a:hover {
   color: rgb(128, 118, 118);
 }
+.hero {
+  display: flex;
+ width: 100%;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
 
+}
+
+.hero-container{
+  display: flex;
+  width: 80%;
+  height:100%;
+}
+.hero-lft{
+  width: 30%;
+  height: 100%;
+  
+}
+.hero-lft img{
+  width: 220px;
+  height: auto;
+}
+.hero-rht{
+  width: 70%;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  flex-direction: column;
+  
+}
+.hero-rht #onEar{
+  padding-left: 200px;
+}
+.hero-rht p{
+  width: 60%;
+}
+.hero-rht button{
+padding: 0.7rem 1rem;
+background-color: #333;
+border-radius: 5px;
+border:none;
+font-size: 0.8rem;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+color: aliceblue;
+outline: none;
+}
+.hero-rht button img{
+  width: 15px;
+} 
+
+.text-card > button {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0.8rem 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(187, 176, 176);
+  background-color: rgb(67, 65, 65);
+  border: none;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.text-card > button:hover {
+  color: black;
+  background-color: rgb(84, 83, 83);
+}
+.social-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  width: 100%;
+  height: 200px ;
+  padding-bottom: 4rem;
+}
 .style-section {
   margin: 50px;
   text-align: center;
@@ -143,10 +211,7 @@ ul  li {
   box-shadow: 0px 0px 15px grey;
 }
 
-#headset {
-  height: 509px;
-  padding-left: 100px;
-}
+
 
 
 #shop-button {
@@ -167,59 +232,18 @@ ul  li {
   background-color: rgb(163, 205, 28);
 }
 
-#onEar {
-  padding: 50px 0px 0px 400px;
-}
 
-.text-card > button {
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-  padding: 0.8rem 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  color: rgb(187, 176, 176);
-  background-color: rgb(67, 65, 65);
-  border: none;
-  border-radius: 10px;
-  transition: all 0.5s ease;
-}
-.text-card > button:hover {
-  color: black;
-  background-color: rgb(84, 83, 83);
-}
-.social-logo {
-  display: flex;
-  justify-content: center;
-}
-.social-logo {
-  padding-right: 400px;
-}
-.social-logo > img {
+
+
+
+/* .social-logo > img {
   padding-top: 200px;
   padding-right: 100px;
-}
-.text-card {
-  margin: 10px;
-  color: white;
-}
-.text-card > h1 {
-  padding-left: 100px;
-}
-.text-card > h5 {
-  padding-top: 10px;
-  padding-left: 100px;
-}
-.text-card > p {
-  padding-top: 10px;
-  padding-left: 100px;
-  padding-right: 650px;
-}
-#bag-button {
-  margin: 40px 0px 0px 150px;
-}
+} */
+
+/* #bag-button {
+  margin:40px 140px;
+} */
 
 .title-logo {
   margin: 70px 0;
