@@ -7,12 +7,19 @@
     <link rel="icon" href="img/Beats-logo.png" type="img" />
     <title>Beats</title>
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
-
     <div class="main">
       <div class="navbar">
         <div class="Beats-logo">
@@ -26,321 +33,328 @@
           <li><button id="shop-button">Shop</button></li>
         </ul>
         <i class="ri-menu-line"></i>
-        </div>
-        <div class="hero">
-          <div class="hero-container">
-            <div class="hero-lft">
-              <img id="headset" src="Assets/Photos/mainImage.png" alt="" />
-            </div>
-  
-            <div class="hero-rht">
-              <img id="onEar" src="Assets/Photos/onEar.png" alt="" />
-              <h1>Beats</h1>
-              <h5>Overview</h5>
-              <p>
-                Enjoy award-wining Beats sound with wireless listening and a
-                sleek,stremlined design with comfortable padded earphones
-                delivering first-rate playback
-              </p>
-              <button id="bag-button">
+      </div>
+      <div class="hero">
+        <div class="hero-container">
+          <div class="hero-lft">
+            <img id="headset" src="Assets/Photos/mainImage.png" alt="" />
+          </div>
+
+          <div class="hero-rht">
+            <img id="onEar" src="Assets/Photos/onEar.png" alt="" />
+            <h1>Beats</h1>
+            <h5>Overview</h5>
+            <p>
+              Enjoy award-wining Beats sound with wireless listening and a
+              sleek,stremlined design with comfortable padded earphones
+              delivering first-rate playback
+            </p>
+            <button id="bag-button">
               <img src="Assets/Icons/shoppingBag.png" alt="" />Add a Bag N399K
             </button>
-              
           </div>
-          </div>
-          <div class="social-logo">
-                  <img src="Assets/Photos/appleLogo.png" alt="appleLogo" />
-                <img src="Assets/Photos/spotifyLogo.png" alt="spotifyLogo" />
-                <img src="Assets/Photos/amazonLogo.png" alt="amazonLogo" />
-                <img src="Assets/Photos/youtubeLogo.png" alt="youtubeLogo" />
-            </div>
+        </div>
+        <div class="social-logo">
+          <img src="Assets/Photos/appleLogo.png" alt="appleLogo" />
+          <img src="Assets/Photos/spotifyLogo.png" alt="spotifyLogo" />
+          <img src="Assets/Photos/amazonLogo.png" alt="amazonLogo" />
+          <img src="Assets/Photos/youtubeLogo.png" alt="youtubeLogo" />
+        </div>
       </div>
-    
-  <!-- </div> -->
 
+      <!-- </div> -->
 
-  <div class="specs-section">
-    <div class="container">
-      <div class="title-logo">
-        <img src="./Assets/Icons/specsLogo.png" alt="">
-      </div>
-      <div class="beat-specs-specification">
-        <div class="product-features">
-          <div class="product-descrip" id="connect-dis">
-            <img src="./Assets/Icons/bluetooth.png" alt="">
-            <div class=" product-connect" >
-              <div id="connection">
-                <p>Connection</p>
-              </div>
-              <p>Bluetooth v5.2</p>
-            </div>
+      <div class="specs-section">
+        <div class="container">
+          <div class="title-logo">
+            <img src="./Assets/Icons/specsLogo.png" alt="" />
           </div>
-          <div class="product-descrip "  id="battery-dis">
-            <img src="./Assets/Icons/battery.png" alt="">
-            <div class="product-battery">
-              <div id="battery">
-                <p>Battery</p>
+          <div class="beat-specs-specification">
+            <div class="product-features">
+              <div class="product-descrip" id="connect-dis">
+                <img src="./Assets/Icons/bluetooth.png" alt="" />
+                <div class="product-connect">
+                  <div id="connection">
+                    <p>Connection</p>
+                  </div>
+                  <p>Bluetooth v5.2</p>
+                </div>
               </div>
-              <p>Duration 40h</p>
+              <div class="product-descrip" id="battery-dis">
+                <img src="./Assets/Icons/battery.png" alt="" />
+                <div class="product-battery">
+                  <div id="battery">
+                    <p>Battery</p>
+                  </div>
+                  <p>Duration 40h</p>
+                </div>
+              </div>
+              <div class="product-descrip" id="charge-dis">
+                <img src="./Assets/Icons/charger.png" alt="" />
+                <div class="product-plugin">
+                  <div id="charge">
+                    <p>Charging</p>
+                  </div>
+                  <p>Fast Charge 4.2-AAC</p>
+                </div>
+              </div>
+              <div class="product-descrip" id="mic-dis">
+                <img src="./Assets/Icons/mic.png" alt="" />
+                <div class="product-mic">
+                  <div id="micro">
+                    <p>Microphone</p>
+                  </div>
+                  <p>Supports Apple Siri and Google</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="product-descrip" id="charge-dis">
-            <img src="./Assets/Icons/charger.png" alt="">
-            <div class="product-plugin" >
-              <div id="charge">
-                <p>Charging</p>
-              </div>
-              <p>Fast Charge 4.2-AAC</p>
-            </div>
-          </div>
-          <div class="product-descrip" id="mic-dis">
-            <img src="./Assets/Icons/mic.png" alt="">
-            <div class="product-mic" >
-              <div id="micro">
-                <p>Microphone</p>
-              </div>
-              <p>Supports Apple Siri and Google</p>
+            <div class="product-image">
+              <img src="./Assets/Photos/specsImage.png" alt="" />
             </div>
           </div>
         </div>
-        <div class="product-image">
-          <img src="./Assets/Photos/specsImage.png" alt="">
+
+        <!-- Yuvraj's code starts from here -->
+        <div class="case">
+          <div class="case-title">
+            <img src="Assets/Icons/caseLogo.png" alt="" />
+          </div>
+
+          <div class="more-info-sec">
+            <div class="case-img">
+              <img src="Assets/Photos/caseImage.png" alt="" />
+            </div>
+            <div class="case-info">
+              <p>
+                With a comfortable and adaptable case so that you can store it
+                whennever you want, and keep your durability forever.
+              </p>
+              <button class="btn-grey btn-black">
+                <img src="Assets/Icons/group.png" alt="" />More info
+              </button>
+            </div>
+          </div>
+
+          <div class="buynow-sec">
+            <div class="headphones-info">
+              <h2>
+                Immerse yourself <br />
+                in your music
+              </h2>
+              <span>Buy Now, up to 40% off. </span> <br />
+              <button class="btn-black">
+                <img src="Assets/Icons/shoppingBag.png" alt="" />Buy now
+              </button>
+            </div>
+            <div class="headphones-img">
+              <img src="Assets/Photos/buyNowSectionImage.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Yuvraj's code end here -->
+
+        <!-- Shubham's code start from here -->
+
+        <div class="style-section">
+          <img src="/Beats-Landing-Page/Assets/Icons/productLogo.png" alt="" />
+
+          <div class="headphones-list">
+            <div class="headphone-card">
+              <div>
+                <img
+                  src="/Beats-Landing-Page/Assets/Photos/black.png"
+                  alt="black-headphones"
+                />
+              </div>
+
+              <div class="card-bottom">
+                <div class="headphone-name">
+                  <p>Black</p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 400;
+                      color: rgb(177, 177, 177);
+                    "
+                  >
+                    N299K
+                  </p>
+                </div>
+
+                <div class="Addtocart-button">
+                  <button><ion-icon name="bag-outline"></ion-icon></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="headphone-card">
+              <div>
+                <img
+                  src="/Beats-Landing-Page/Assets/Photos/blue.png"
+                  alt="blue-headphones"
+                />
+              </div>
+
+              <div class="card-bottom">
+                <div class="headphone-name">
+                  <p>Blue</p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 400;
+                      color: rgb(177, 177, 177);
+                    "
+                  >
+                    N299K
+                  </p>
+                </div>
+
+                <div class="Addtocart-button">
+                  <button><ion-icon name="bag-outline"></ion-icon></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="headphone-card">
+              <div>
+                <img
+                  src="/Beats-Landing-Page/Assets/Photos/redBlack.png"
+                  alt="red-black-headphones"
+                />
+              </div>
+
+              <div class="card-bottom">
+                <div class="headphone-name">
+                  <p>Red Black</p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 400;
+                      color: rgb(177, 177, 177);
+                    "
+                  >
+                    N299K
+                  </p>
+                </div>
+
+                <div class="Addtocart-button">
+                  <button><ion-icon name="bag-outline"></ion-icon></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="headphone-card">
+              <div>
+                <img
+                  src="/Beats-Landing-Page/Assets/Photos/twilightGray.png"
+                  alt="twilightGray-headphones"
+                />
+              </div>
+
+              <div class="card-bottom">
+                <div class="headphone-name">
+                  <p>Twilight Gray</p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 400;
+                      color: rgb(177, 177, 177);
+                    "
+                  >
+                    N299K
+                  </p>
+                </div>
+
+                <div class="Addtocart-button">
+                  <button><ion-icon name="bag-outline"></ion-icon></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="headphone-card">
+              <div>
+                <img
+                  src="/Beats-Landing-Page/Assets/Photos/nightBlack.png"
+                  alt="nightblack-headphones"
+                />
+              </div>
+
+              <div class="card-bottom">
+                <div class="headphone-name">
+                  <p>Night Black</p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 400;
+                      color: rgb(177, 177, 177);
+                    "
+                  >
+                    N299K
+                  </p>
+                </div>
+
+                <div class="Addtocart-button">
+                  <button><ion-icon name="bag-outline"></ion-icon></button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="footer">
+        <div>
+          <img
+            src="/Beats-Landing-Page/Assets/Photos/beatsLogo.png"
+            alt="beat-logo"
+          />
+        </div>
+
+        <div class="product-support-list">
+          <div class="product-list">
+            <h5>Products</h5>
+            <ul>
+              <li>Headphones</li>
+              <li>Earphones</li>
+              <li>Earbuds</li>
+              <li>Accessories</li>
+            </ul>
+          </div>
+
+          <div class="support-list">
+            <h5>Support</h5>
+            <ul>
+              <li>Product help</li>
+              <li>Register</li>
+              <li>Update</li>
+              <li>Provides</li>
+            </ul>
+          </div>
+
+          <div class="input-img-box">
+            <div>
+              <input type="text" name="" id="" placeholder="Email" />
+              <button>
+                <img
+                  src="/Beats-Landing-Page/Assets/Icons/rightArrow.png"
+                  alt=""
+                />
+                Subscribe
+              </button>
+            </div>
+            <div class="footer-logo">
+              <img src="/Beats-Landing-Page/Assets/Icons/facebook.png" alt="" />
+              <img
+                src="/Beats-Landing-Page/Assets/Icons/instagram.png"
+                alt=""
+              />
+              <img src="/Beats-Landing-Page/Assets/Icons/twitter.png" alt="" />
+              <img src="/Beats-Landing-Page/Assets/Icons/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Shubham's code end here  -->
     </div>
-
-    
-<!-- Yuvraj's code starts from here -->
-<div class="case">
-
-<div class="case-title">
-  <img src="Assets/Icons/caseLogo.png" alt="">
-</div>
-
-<div class="more-info-sec">
-  <div class="case-img">
-    <img src="Assets/Photos/caseImage.png" alt="">
-  </div>
-  <div class="case-info">
-    <p>
-      With a comfortable and adaptable case so that you can store it whennever you want, and keep your
-      durability forever. </p>
-    <button class="btn-grey btn-black"> <img src="Assets/Icons/group.png" alt="">More info </button>
-  </div>
-</div>
-
-
-<div class="buynow-sec">
-  <div class="headphones-info">
-    <h2>Immerse yourself <br>
-      in your music </h2>
-    <span>Buy Now, up to 40% off. </span> <br>
-    <button class="btn-black"><img src="Assets/Icons/shoppingBag.png" alt="">Buy now</button>
-  </div>
-  <div class="headphones-img">
-    <img src="Assets/Photos/buyNowSectionImage.png" alt="">
-  </div>
-</div>
-
-
-</div>
-<!-- Yuvraj's code end here -->
-
-  <div class="style-section">
-    <h2>Choose</h2>
-    <h2 style="color: rgb(65, 64, 64)">Your Style</h2>
-
-    <div class="headphones-list">
-      <div class="headphone-card">
-        <div>
-          <img
-            src="/Beats-Landing-Page/Assets/Photos/black.png"
-            alt="black-headphones"
-          />
-        </div>
-
-        <div class="card-bottom">
-          <div class="headphone-name">
-            <p>Black</p>
-            <p
-              style="
-                font-size: 12px;
-                font-weight: 400;
-                color: rgb(177, 177, 177);
-              "
-            >
-              N299K
-            </p>
-          </div>
-
-          <div class="Addtocart-button">
-            <button><ion-icon name="bag-outline"></ion-icon></button>
-          </div>
-        </div>
-      </div>
-
-      <div class="headphone-card">
-        <div>
-          <img
-            src="/Beats-Landing-Page/Assets/Photos/blue.png"
-            alt="blue-headphones"
-          />
-        </div>
-
-        <div class="card-bottom">
-          <div class="headphone-name">
-            <p>Blue</p>
-            <p
-              style="
-                font-size: 12px;
-                font-weight: 400;
-                color: rgb(177, 177, 177);
-              "
-            >
-              N299K
-            </p>
-          </div>
-
-          <div class="Addtocart-button">
-            <button><ion-icon name="bag-outline"></ion-icon></button>
-          </div>
-        </div>
-      </div>
-
-      <div class="headphone-card">
-        <div>
-          <img
-            src="/Beats-Landing-Page/Assets/Photos/redBlack.png"
-            alt="red-black-headphones"
-          />
-        </div>
-
-        <div class="card-bottom">
-          <div class="headphone-name">
-            <p>Red Black</p>
-            <p
-              style="
-                font-size: 12px;
-                font-weight: 400;
-                color: rgb(177, 177, 177);
-              "
-            >
-              N299K
-            </p>
-          </div>
-
-          <div class="Addtocart-button">
-            <button><ion-icon name="bag-outline"></ion-icon></button>
-          </div>
-        </div>
-      </div>
-
-      <div class="headphone-card">
-        <div>
-          <img
-            src="/Beats-Landing-Page/Assets/Photos/twilightGray.png"
-            alt="twilightGray-headphones"
-          />
-        </div>
-
-        <div class="card-bottom">
-          <div class="headphone-name">
-            <p>Twilight Gray</p>
-            <p
-              style="
-                font-size: 12px;
-                font-weight: 400;
-                color: rgb(177, 177, 177);
-              "
-            >
-              N299K
-            </p>
-          </div>
-
-          <div class="Addtocart-button">
-            <button><ion-icon name="bag-outline"></ion-icon></button>
-          </div>
-        </div>
-      </div>
-
-      <div class="headphone-card">
-        <div>
-          <img
-            src="/Beats-Landing-Page/Assets/Photos/nightBlack.png"
-            alt="nightblack-headphones"
-          />
-        </div>
-
-        <div class="card-bottom">
-          <div class="headphone-name">
-            <p>Night Black</p>
-            <p
-              style="
-                font-size: 12px;
-                font-weight: 400;
-                color: rgb(177, 177, 177);
-              "
-            >
-              N299K
-            </p>
-          </div>
-
-          <div class="Addtocart-button">
-            <button><ion-icon name="bag-outline"></ion-icon></button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-     
-        
-      </div>
-      
-
-  </div>
-
-
-
-<!-- 
-  <div class="footer">
-    <div><img src="" alt="beat-logo" /></div>
-
-    <div class="product-support-list">
-      <div class="product-list">
-        <h5>Products</h5>
-        <ul>
-          <li>Headphones</li>
-          <li>Earphones</li>
-          <li>Earbuds</li>
-          <li>Accessories</li>
-        </ul>
-      </div>
-
-      <div class="support-list">
-        <h5>Support</h5>
-        <ul>
-          <li>Product help</li>
-          <li>Register</li>
-          <li>Update</li>
-          <li>Provides</li>
-        </ul>
-
-        <div>
-          <input type="text" name="" id="" />
-          <button></button>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-      </div>
-
-        
   </body>
 </html>

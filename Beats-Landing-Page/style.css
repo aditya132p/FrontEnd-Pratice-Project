@@ -32,7 +32,8 @@ ul  li {
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 2rem 8rem;
+  padding: 1rem 8rem;
+  z-index: 1;
 }
 
 .navbar ul {
@@ -447,4 +448,73 @@ div#mic-dis {
 /* // smartphone  */
 @media only screen and (min-width: 368px) {
   /* Styles here */
+}
+
+
+.footer{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.product-support-list{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.product-support-list li{
+  padding-top: 15px;
+  font-size: 15px;
+  color: grey;
+}
+
+.product-support-list h5{
+  font-size: 18px;
+}
+
+.product-list{
+  margin: 0px 100px;
+}
+
+.input-img-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+.input-img-box input{
+  padding: 17px;
+  width: 400px;
+  background-color: #33333393;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: -20px;
+}
+
+.footer-logo img{
+  margin-top: -50px;
+  margin: 10px;
+}
+
+.input-img-box button{
+  background-color: #111111;
+  border: none;
+  color: white;
+  position: relative;
+  left: 230px;
+  bottom: 29px;
+  font-size: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px 35px;
+  justify-content: space-between;
+}
+
+.input-img-box button img{
+  padding-right: 5px;
 }
