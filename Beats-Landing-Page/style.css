@@ -438,6 +438,62 @@ div#mic-dis {
   .hero .hero-container .hero-rht{
     width: 50%;
   }
+
+  
+  .headphones-list{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    row-gap: 120px;
+    margin-top: 30px;
+    margin-left: -25px;
+  }
+  .headphone-card{
+    width: 580px;
+  }
+
+  .style-section img{
+    margin-left: -45px;
+  
+  }
+
+  .footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px 300px;
+  }
+  .product-support-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 0px -200px; */
+  }
+
+  .product-list{
+    padding-left: 350px;
+    padding-bottom: 50px;
+  }
+
+  .logo-img img{
+    position: relative;
+    top: 150px;
+    right: 270px;
+  }
+.input-img-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 100px;
+  position: relative;
+  top: 50px;
+  right: 125px;
+  padding-bottom: 50px;
+}
+
 }
 
 /* // tablet  */
@@ -446,8 +502,63 @@ div#mic-dis {
   /* Styles here */
 }
 /* // smartphone  */
-@media only screen and (min-width: 368px) {
+@media only screen and (max-width: 375px) {
   /* Styles here */
+  
+  .headphones-list{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    row-gap: 120px;
+    margin-top: 30px;
+    margin-left: -25px;
+  }
+  .headphone-card{
+    width: 300px;
+  }
+
+  .style-section img{
+    margin-left: -45px;
+  
+  }
+
+  .footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px 58%;
+  }
+  .product-support-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 0px -200px; */
+  }
+
+  .product-list{
+    padding-left: 120px;
+    padding-bottom: 50px;
+  }
+
+  .logo-img img{
+    position: relative;
+    top: 150px;
+    right: 200px;
+  }
+.input-img-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 100px;
+  position: relative;
+  top: 50px;
+  right: 125px;
+  padding-bottom: 50px;
+}
+
 }
 
 
@@ -488,7 +599,7 @@ div#mic-dis {
 
 .input-img-box input{
   padding: 17px;
-  width: 400px;
+  width: 350px;
   background-color: #33333393;
   border: none;
   border-radius: 5px;
@@ -505,13 +616,13 @@ div#mic-dis {
   border: none;
   color: white;
   position: relative;
-  left: 230px;
+  left: 190px;
   bottom: 29px;
   font-size: 15px;
   border-radius: 5px;
   display: flex;
   align-items: center;
-  padding: 10px 35px;
+  padding: 10px 33px;
   justify-content: space-between;
 }
 
