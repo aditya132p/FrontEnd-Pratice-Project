@@ -154,6 +154,9 @@ outline: none;
   height: 200px ;
   padding-bottom: 4rem;
 }
+
+/* shubham's code start from here  */
+
 .style-section {
   margin: 50px;
   text-align: center;
@@ -161,9 +164,14 @@ outline: none;
 
 .headphones-list {
   padding: 80px;
-  display: grid;
+  /* display: grid;
   grid-template-columns: auto auto auto;
-  row-gap: 120px;
+  column-gap: 5%;
+  row-gap: 30%; */
+  display: flex;
+  justify-content: start;
+  gap: 4%;
+  flex-wrap: wrap;
   margin-top: 30px;
   margin: 0px 8%;
 }
@@ -172,6 +180,7 @@ outline: none;
   background-color: rgb(30 30 33);
   width: 300px;
   height: 340px;
+  margin: 7% 0;
 }
 
 .headphone-card img {
@@ -223,7 +232,7 @@ outline: none;
   box-shadow: 0px 0px 15px grey;
 }
 
-
+/* Shubham's code end here */
 
 
 #shop-button {
@@ -439,7 +448,6 @@ div#mic-dis {
     width: 50%;
   }
 
-  
   .headphones-list{
     display: grid;
     grid-template-columns: auto;
@@ -448,8 +456,9 @@ div#mic-dis {
     margin-top: 30px;
     margin-left: -25px;
   }
+
   .headphone-card{
-    width: 580px;
+    width: 30rem;
   }
 
   .style-section img{
@@ -539,7 +548,7 @@ div#mic-dis {
   }
 
   .product-list{
-    padding-left: 120px;
+    padding-left: 8rem;
     padding-bottom: 50px;
   }
 
@@ -561,7 +570,7 @@ div#mic-dis {
 
 }
 
-
+/* Ṣhubham's code start from */
 .footer{
   color: white;
   display: flex;
